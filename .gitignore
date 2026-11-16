@@ -1,0 +1,46 @@
+# ---------- 构建产物 ----------
+/build/
+/app/build/
+/app/release/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.apk.*
+*.idsig
+*.hprof
+
+# ---------- Gradle / Kotlin ----------
+.gradle/
+.kotlin/
+
+# ---------- IDE ----------
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+out/
+
+# ---------- 本机配置与签名文件（绝不提交） ----------
+local.properties
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+
+# ---------- 日志与临时文件 ----------
+*.log
+*.bak
+*.tmp
+*.swp
+*.orig
+*.rej
+
+# ---------- 系统文件 ----------
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        调试版图标的底色：琥珀色，和正式版（深底）一眼区分。
+        只在 debug 源集生效；用 Image Asset 重新生成 debug 图标后，本文件可删。
+    -->
+    <color name="ic_launcher_background_debug">#FFF5B841</color>
+</resources>
